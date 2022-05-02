@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+:root {
+    --dark: #212529;
+    --gray: #707070;
+    --near-white: #F8F9FA;
+    --white: #fff;
+    --green: #28A745;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.card-title {
+    font: normal 300 20px/24px Roboto;
+    letter-spacing: 0px;
+    color: var(--dark);
+}
+
+.card-text {
+    font: normal 300 16px/19px Roboto;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: var(--gray);
+}
+
+.card-sub-text {
+    font: normal 300 13px/15px Roboto;
+    letter-spacing: 0px;
+    color: var(--gray);
+}
+
+.border {
+    border: solid 0.5px var(--gray);
+}
+
+.card-price {
+    font: normal 500 20px/24px Roboto;
+    letter-spacing: 0px;
+    color: var(--green);
+}
+
+.text-form-title {
+    font: normal 500 21px/24px Roboto;
+    letter-spacing: 0px;
+    color: var(--white);
+    padding-top: 25px;
+}
+
+.form-control {
+    font: normal 300 16px/19px Roboto;
+    letter-spacing: 0px;
+    color: var(--gray);
+}
+
+.btn-cuppon {
+    color: var(--dark);
+    background-color: var(--near-white);
+    border-color: #DDDDDD;
+}
+
+.text-footer {
+    font: normal 300 16px/19px Roboto;
+    letter-spacing: 0px;
+    color: var(--gray);
+}
